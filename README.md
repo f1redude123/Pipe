@@ -1,4 +1,4 @@
-![image](docs/banner.png)
+![image](docs/header.png)
 
 # Pipe Browser
 
