@@ -6,5 +6,10 @@ Pipe Browser is a proxy setup built from the ground up that can easily be forked
 
 ## Usage
 
-To setup a proxy, simply fork the repository, open the filesystem on the machine you want to host the proxy on, and run `main.sh` or `main.bat`(depending on your OS).
-The proxy runs in a Microsoft DevTunnels environment, so it's very easy to customize.
+1. Clone the repository to the machine you want to host the proxy on
+2. Run `setup.bat` or `setup.sh` depending on your OS
+3. Run `main.bat` or `main.sh` depending on your OS
+
+Note: Unix-like systems may have trouble installing DevTunnels, I included the raw binaries just in case. `setup.bat`/`setup.sh` will take care of everything.
+
+Right now I'm working on getting the base functionality done, once I'm done with that I'll probably add a system to make it automatically generate GitHub accounts. In the meantime I'm afraid you will have to have a GitHub/Microsoft account to use the proxy.
