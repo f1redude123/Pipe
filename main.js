@@ -52,7 +52,7 @@ async function parseChild(child, baseUrl) {
                 "onclick",
                 `const form = document.createElement("form");
                 form.method = "post";
-                form.action = "https://pipe-${props.port}.use2.devtunnels.ms/browser.html";
+                form.action = "https://pipe-6080.use2.devtunnels.ms/browser.html";
                 const input = document.createElement("input");
                 input.name = "search";
                 input.value = "${url}";
