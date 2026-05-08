@@ -1,5 +1,6 @@
 winget install Microsoft.devtunnel
 winget install OpenJS.NodeJS
+npm install jsdom
 npm install express
 npm install path
 npm install nodemon
